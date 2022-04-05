@@ -7,11 +7,11 @@ class prime_not{
   Scanner s= new Scanner(System.in);
   int n=s.nextInt();
   int count=0;
-  int i,j;
+  int i;
   for(i=2;i<=n;i++)
    {
     // System.out.println("in outer loop");	   
-     for(j=2;j<=i;j++)
+     for(int j=2;j<=i;j++)
      {	     
        if(i%j==0)
          count++;
